@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Curioso</title>
+  <!-- Font Awesome Icon Script -->
+  <script src="https://kit.fontawesome.com/dc51375965.js" crossorigin="anonymous"></script>
+
+  </script>
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styless.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Montserrat|Nunito|Nunito+Sans|Rubik+Mono+One|Ubuntu&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <section id="title" class="imaged-section" style="background-image: url('images/delivery3.jpg')">
+
+    <!-- Nav Bar -->
+    <div class='nav-bar'>
+      <nav class="navbar navbar-expand-lg navbar-primary">
+        <a class="navbar-brand" href="#">Curioso</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="list-icon fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#title" class="nav-link">How it works</a>
+            </li>
+            <li class="nav-item">
+              <a href="#pricing" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#footer" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#cta" class="nav-link">Download</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+    </div>
+
+    <!-- Title -->
+    <div class="container-fluid">
+      <div class="row pl-4">
+        <div class="col-lg-6">
+           <h1 class="big-heading">Find a deliverer for your package, fast and cheap.</h1>
+        </div>
+      </div>
+      <form class="form-inline col-lg-6 pl-4 pt-4">
+        <div class="col-lg-10 label-title pl-0 mb-1">
+          <label for="exampleFormControlFile1">Where do you want to send your package?</label>
+        </div>
+        <select class="select form-control type mb-4" id="validationCustom01" placeholder="City or Country" required>
+          <option>Select a Country</option>
+          <option>Uzbekistan</option>
+          <option>Russia</option>
+          <option>USA</option>
+          <option>South Korea</option>
+          <option>Kazkhstan</option>
+          <option>France</option>
+          <option>England</option>
+          <option>Argentina</option>
+          <option>India</option>
+          <option>Tajikistan</option>
+        </select>
+        <button type="button" class="btn btn-primary mb-4 search-button"><i class="fas fa-search-location"></i> Search a Deliverer</button>
+      </form>
+      <!-- <div class="row pt-5">
+        <form class="form-inline">
+          <div class="col-lg-12 label-title pl-0">
+              <label for="exampleFormControlFile1">Where do you want to send your package?</label>
+          </div>
+          <div class="form-group col-lg-6">
+            <input class="form-control" id="validationCustom02" placeholder="Track code" required>
+          </div>
+          <div class="col-lg-6">
+            <button type="button" id="but1" class="btn btn-primary position:relative "><i class="fas fa-search"></i> Track</button>
+          </div>
+        </form>
+      </div> -->
+    </div>
+
+  </section>
+
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-bullseye fa-4x"></i>
+        <h3 class="feature-heading">Match on target.</h3>
+        <p>Easily match with appropriate track road and deadline.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-money-check-alt  fa-4x"></i>
+        <h3 class="feature-heading">Cheap and Fast</h3>
+        <p>Send your parcel at a quater price of a traditional postal system.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon fas fa-shield-alt  fa-4x"></i>
+        <h3 class="feature-heading">Safe and Secure.</h3>
+        <p>Keep track of your parcel, contact the deliverer anytime.</p>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials" class="imaged-section" style="background-image: url('images/delivery.jpg')">
+
+    <div id="testimonial-corousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2 class="big-heading">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="big-heading">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="big-heading">I used to spent a lot of money on traditional posts, but with curioso, things got more easier</h2>
+          <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Urgench, Uzbekistan </em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-corousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-corousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+
+
+    <!-- Press -->
+
+    <section id="press">
+      <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+      <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+      <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+    </section>
+
+  </section>
+
+
+
+
+  <!-- Pricing -->
+
+  <section class="white-section" id="pricing">
+
+    <h3 class="pricing-heading">A Plan for EveryOnes' Needs</h3>
+    <p>Simple and affordable price plans for you and your package.</p>
+    <div class="row mt-5">
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h4> Free </h4>
+          </div>
+          <div class="card-body white-section">
+            <h2 class="h2-price"> $0 / mo </h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="plan-list"> 5 Matches Per Day </li>
+              <li class="plan-list"> 10 Messages Per Day </li>
+              <li class="plan-list"> Unlimited App Usage </li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+
+        <div class="card">
+          <div class="card-header">
+            <h4> Pro </h4>
+          </div>
+          <div class="card-body white-section">
+            <h2 class="h2-price"> $15 / mo </h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="plan-list"> Unlimited Matches </li>
+              <li class="plan-list"> Unlimited Messages </li>
+              <li class="plan-list"> Unlimited App Usage </li>
+              <li class="plan-list"> Help center access </li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+
+        <div class="card">
+          <div class="card-header white-section">
+            <h4> Enterprise </h4>
+          </div>
+          <div class="card-body">
+            <h2 class="h2-price"> $29 / mo </h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li class="plan-list"> Priority Listing </li>
+              <li class="plan-list"> Unlimited Matches </li>
+              <li class="plan-list"> Unlimited Messages </li>
+              <li class="plan-list"> Unlimited App Usage </li>
+              <li class="plan-list"> Phone and email support </li>
+              <li class="plan-list"> Help center access </li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-block btn-primary">Sign Up</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta" class="imaged-section" style="background-image: url('images/delivery5.jpg')">
+
+    <!--  -->
+
+    <h3 class="big-heading">Need a deliverer for your package? Try the Mobile.</h3>
+    <button class="btn btn-primary btn2-2 mt-5 m-3" type="button"><i class="fab fa-apple"></i> Download</button>
+    <button class="btn btn-outline-primary btn2 mt-5 m-3" type="button"><i class="fab fa-google-play"></i> Download</button>
+  </section>
+
+  <footer id="footer">
+
+    <i class="social-icon fab fa-facebook-f"></i>
+    <i class="social-icon fab fa-twitter"></i>
+    <i class="social-icon fab fa-instagram"></i>
+    <i class="social-icon fas fa-envelope"></i>
+    <p class="copyright-text">© Copyright 2020 Curioso</p>
+  </footer>
+
+  <!-- Footer -->
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
